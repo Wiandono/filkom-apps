@@ -5,4 +5,4 @@
 
 ### Expected features (?)
 - Changing between light and dark theme
-- Include all other Filkom Apps API (Kalo gabut)
+- Kehadiran dosen
