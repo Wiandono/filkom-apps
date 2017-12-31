@@ -8,9 +8,6 @@ $.ajax({
     url: 'https://cors-anywhere.herokuapp.com/' + 'http://filkom.ub.ac.id/module/api/conf/get_jadwal/in', 
     type: 'get', 
     crossDomain: true,
-    header: {
-        'Access-Control-Allow-Origin': '*'
-    },
     success: function (data) { 
         objP = JSON.parse(atob(data)); 
  
