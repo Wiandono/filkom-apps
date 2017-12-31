@@ -5,8 +5,9 @@ var hari = '';
 var praktikum = ''; 
  
 $.ajax({ 
-    url: 'http://filkom.ub.ac.id/module/api/conf/get_jadwal/in', 
+    url: 'https://cors-anywhere.herokuapp.com/' + 'http://filkom.ub.ac.id/module/api/conf/get_jadwal/in', 
     type: 'get', 
+    crossDomain: true,
     success: function (data) { 
         objP = JSON.parse(atob(data)); 
  
